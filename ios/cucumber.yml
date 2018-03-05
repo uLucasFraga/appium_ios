@@ -1,0 +1,7 @@
+## YAML Templatesss
+---
+default: --format pretty -p html
+for_ci: --format progress
+html: --format html --out=results/report.
+
+## ios: PLATFORM=ios -r features/support -r features/ios -r features/step_definitions --exclude features/android
