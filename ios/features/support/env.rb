@@ -25,8 +25,9 @@ Before do
         platformName: 'iOS',
         app: APP_PATH,
         newCommandTimeout: '3600',
-        #autoGrantPermissions: true,
         autoAcceptAlerts: true,
+        xcodeOrgId: 'xcode Org ID',
+        xcodeSigningId: 'iPhone Developer'
       },
       appium_lib:
                       { wait: TWENTY_SECONDS,
